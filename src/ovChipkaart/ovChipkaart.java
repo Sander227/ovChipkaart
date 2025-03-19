@@ -5,7 +5,10 @@ public class ovChipkaart {
 	public static void main(String[] args) {
 		
 		String ov;
-		boolean ovPaaltje = false;
+		int euros = 0;
+		int centen = 0;
+		boolean ingecheckt = false;
+		
 	}
 
 }
