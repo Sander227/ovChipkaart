@@ -4,6 +4,7 @@ public class OVkaart {
 
 	private double saldo = 0;
 	private boolean ingecheckt = false;
+	private OVstation incheckStation;
 	
 	public OVkaart(double saldo) {
 		this.saldo = saldo;
@@ -23,6 +24,14 @@ public class OVkaart {
 	
 	public void setingecheckt(boolean ingecheckt) {
 		this.ingecheckt= ingecheckt;
+	}
+	
+	public void setinchecklocatie(OVstation station) {
+		this.incheckStation = station;
+	}
+	
+	public OVstation getyinchecklocatie() {
+		return this.incheckStation;
 	}
 	
 	
