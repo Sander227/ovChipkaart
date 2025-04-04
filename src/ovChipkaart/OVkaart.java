@@ -26,13 +26,15 @@ public class OVkaart {
 		this.ingecheckt= ingecheckt;
 	}
 	
+	public OVstation getyinchecklocatie() {
+		return this.incheckStation;
+	}
+	
 	public void setinchecklocatie(OVstation station) {
 		this.incheckStation = station;
 	}
 	
-	public OVstation getyinchecklocatie() {
-		return this.incheckStation;
-	}
+	
 	
 	
 	
