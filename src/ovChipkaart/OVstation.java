@@ -5,13 +5,11 @@ public class OVstation {
 
 	private double coordinaatX;
 	private double coordinaatY;
-	private String stationNaam;
 	
 	
-	public OVstation (double coordinaatX, double coordinaatY, String stationNaam) {
+	public OVstation (double coordinaatX, double coordinaatY) {
 		this.coordinaatX = coordinaatX;
 		this.coordinaatY = coordinaatY;
-		this.stationNaam = stationNaam;
 	}
 	
 	public double afstandBerekenen(OVstation anderStation) {
